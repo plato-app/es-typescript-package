@@ -1,6 +1,6 @@
 {
 	"private": true,
-	"name": "@plato/template-typescript-package",
+	"name": "@scope/pacakge-name",
 	"version": "0.1.0",
 	"description": "A template for TypeScript packages, compatible with ES6 and CommonJS",
 	"keywords": [
