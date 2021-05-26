@@ -20,6 +20,6 @@ There's always some metadata to update when using boilerplate code, so make sure
 
 - Update the package's `name`, `version`, `description`, `author`, etc in `package.json`
 - Update the `LICENSE.md` with the appropriate year and owner
-- Update the `CHANGELOG.md` with your package's changes
+- Update the `CHANGELOG.md` with your package's changes (see [keep a changelog](https://keepachangelog.com/en/1.0.0/))
 - Remove the `private: true` flag from `package.json` (if you intend to publish to npm)
 - Replace this `README.md` with your own!
