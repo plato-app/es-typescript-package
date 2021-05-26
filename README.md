@@ -23,3 +23,31 @@ There's always some metadata to update when using boilerplate code, so make sure
 - Update the `CHANGELOG.md` with your package's changes (see [keep a changelog](https://keepachangelog.com/en/1.0.0/))
 - Remove the `private: true` flag from `package.json` (if you intend to publish to npm)
 - Replace this `README.md` with your own!
+
+## Usage
+
+### Formatting & Linting
+
+A combination of [EditorConfig](https://editorconfig.org), [Prettier](https://prettier.io), and [ESLint](https://eslint.org) are used to keep the code base formatted consistently and adhering to best practices.
+
+In short, EditorConfig informs your editor of the basic file formatting (indentation, line endings, etc), Prettier formats the code with a consistent style, and ESLint checks for bad practices, typing issues, and so on.
+
+To format the code (according to EditorConfig and Prettier settings):
+
+```sh
+yarn format
+```
+
+To lint the code (using a Prettier format check and ESLint):
+
+```sh
+yarn lint
+```
+
+It is highly recommended to install editor plugins/integrations in order to make code formatting and linting as seamless as possible. It's much easier to catch violations at edit-time, rather than downstream when builds fail.
+
+Editor integrations:
+
+- [EditorConfig](https://editorconfig.org/#download)
+- [Prettier](https://prettier.io/docs/en/editors.html)
+- [ESLint](https://eslint.org/docs/user-guide/integrations)
