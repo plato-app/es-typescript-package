@@ -1,4 +1,2 @@
 /** A widget */
-export class Widget {
-
-}
+export class Widget {}

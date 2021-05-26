@@ -6,19 +6,20 @@ In order to be compatible with as many consumers as possible, the package's Type
 
 ## Features
 
-* 🏗️ TypeScript [transpilation](https://en.wikipedia.org/wiki/Source-to-source_compiler)
-* 👕 TypeScript linting via [eslint](https://eslint.org)
-* 🧪 TypeScript unit test runner via [tape](https://github.com/substack/tape), which produces [Test Anything Protocol](https://en.wikipedia.org/wiki/Test_Anything_Protocol)
-* 📝 TypeScript documentation generation via [TypeDoc](http://typedoc.org)
-* 👷 [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) via [GitHub Actions](https://github.com/features/actions)
-* 📄 [MIT license](https://en.wikipedia.org/wiki/MIT_License)
+- 🎨 Code formatting via [Prettier](https://prettier.io)
+- 🏗️ TypeScript [transpilation](https://en.wikipedia.org/wiki/Source-to-source_compiler)
+- 👕 TypeScript linting via [eslint](https://eslint.org)
+- 🧪 TypeScript unit test runner via [tape](https://github.com/substack/tape), which produces [Test Anything Protocol](https://en.wikipedia.org/wiki/Test_Anything_Protocol)
+- 📝 TypeScript documentation generation via [TypeDoc](http://typedoc.org)
+- 👷 [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) via [GitHub Actions](https://github.com/features/actions)
+- 📄 [MIT license](https://en.wikipedia.org/wiki/MIT_License)
 
 ## Metadata
 
 There's always some metadata to update when using boilerplate code, so make sure to do the following:
 
-* Update the package's `name`, `version`, `description`, `author`, etc in `package.json`
-* Update the `LICENSE.md` with the appropriate year and owner
-* Update the `CHANGELOG.md` with your package's changes
-* Remove the `private: true` flag from `package.json` (if you intend to publish to npm)
-* Replace this `README.md` with your own!
+- Update the package's `name`, `version`, `description`, `author`, etc in `package.json`
+- Update the `LICENSE.md` with the appropriate year and owner
+- Update the `CHANGELOG.md` with your package's changes
+- Remove the `private: true` flag from `package.json` (if you intend to publish to npm)
+- Replace this `README.md` with your own!

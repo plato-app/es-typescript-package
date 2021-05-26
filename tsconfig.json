@@ -10,8 +10,6 @@
 		"declaration": true,
 		"declarationDir": "dist/types"
 	},
-	"include": [
-		"lib/**/*.ts"
-	],
+	"include": ["lib/**/*.ts"],
 	"compileOnSave": true
 }
